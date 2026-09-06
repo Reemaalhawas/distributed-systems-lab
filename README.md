@@ -1,6 +1,5 @@
-Absolutely — for GitHub, shorter is better here. I’d use something like this:
 
-````markdown
+
 # Distributed Systems Lab
 
 A hands-on project for learning distributed systems by building a small multi-server backend architecture with Python.
