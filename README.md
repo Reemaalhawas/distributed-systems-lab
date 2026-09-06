@@ -80,12 +80,3 @@ http://127.0.0.1:8080/
 * Fault tolerance
 * Timeouts
 * Async communication
-
-## Goal
-
-This repository is being built incrementally to explore core distributed-systems concepts and how real backend services communicate, scale, and handle failures.
-
-```
-
-This version is much better for your portfolio because someone can understand the repo in under a minute.
-```
