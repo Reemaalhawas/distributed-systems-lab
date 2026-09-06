@@ -44,7 +44,10 @@ async def load_balance():
     backend = next(server_cycle)
 
     async with httpx.AsyncClient() as client:
-        response = await client.get(f"{backend}/")
+        response = await client.get(
+            f"{backend}/",
+            timeout=2.0
+        )
 
     return {
         "forwarded_to": backend,
